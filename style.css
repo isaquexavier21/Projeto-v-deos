@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: center;
+    padding: center;
+    position: center;
+}
+
+body{
+    font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #01000e;
+    color: #333;
+    padding: 20px;
+}
+
+h1, h2{
+    color: #fff;
+    margin-bottom: 20px ;
+}
+
+form{
+    background: #001633;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgb(139, 170, 255);
+    margin-bottom:40px;
+    max-width: 500px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom:15px;
+    border: 1px solid #ddd;
+    border-radius:8px;
+    font-size: 16px;
+}
+
+button{
+    background-color: #034eb1;
+    color: #fff;
+    border: none ;
+    padding: 10px 18px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-right: 10px;
+}
+
+button:hover{
+    background-color: #0d448d;
+}
+
+hr{
+    margin: 40px 0;
+    border: none;
+    border-top: 1px solid #ffffff;
+}
+
+#videos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    gap: 20px;
+}
+
+.video-item{
+    background: #001633;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgb(139, 170, 255);
+    margin-bottom:40px;
+    padding: 20px;
+    transition: transform 0.2s ease;
+}
+
+.video-item:hover{
+    transform: scale(1.02);
+}
+
+.video-item h3{
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.video-item p{
+    margin-bottom: 8px;
+    color: #fff;
+}
